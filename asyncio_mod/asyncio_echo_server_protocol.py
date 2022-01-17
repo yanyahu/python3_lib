@@ -12,4 +12,3 @@ logging.basicConfig(
 log = logging.getLogger('main')
 
 event_loop = asyncio.get_event_loop()
-# TODO https://pymotw.com/3/asyncio/io_protocol.html
