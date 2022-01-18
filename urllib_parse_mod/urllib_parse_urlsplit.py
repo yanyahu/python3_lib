@@ -1,11 +1,11 @@
-from urllib.parse import urlparse
+from urllib.parse import urlsplit
 
-url = 'http://user:pwd@NetLoc:80/path;param?query=arg#frag'
-parsed = urlparse(url)
+url = 'http://user:pwd@NetLoc:80/p1;para/p2;para?query=arg#frag'
+parsed = urlsplit(url)
+print(parsed)
 print('scheme  :', parsed.scheme)
 print('netloc  :', parsed.netloc)
 print('path    :', parsed.path)
-print('params  :', parsed.params)
 print('query   :', parsed.query)
 print('fragment:', parsed.fragment)
 print('username:', parsed.username)
