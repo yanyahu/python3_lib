@@ -54,6 +54,3 @@ if __name__ == '__main__':
         server.serve_forever()
     except KeyboardInterrupt:
         print('Exiting')
-
-
-# TODO https://pymotw.com/3/xmlrpc.client/index.html
