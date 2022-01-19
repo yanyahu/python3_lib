@@ -3,8 +3,7 @@ try:
 except ImportError:
     import readline
 
-readline.parse_and_bind('tab: complete')
-readline.parse_and_bind('set editing-mode vi')
+readline.read_init_file('myreadline.rc')
 
 while True:
     line = input('Prompt ("stop" to quit): ')
