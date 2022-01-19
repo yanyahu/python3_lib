@@ -5,7 +5,7 @@ address = re.compile(
     [\w\d.+-]+       # username
     @
     ([\w\d.]+\.)+    # domain name prefix
-    (com|org|edu)    # TODO: support more top-level domains
+    (com|org|edu)
     ''',
     re.VERBOSE)
 
