@@ -1,3 +1,5 @@
+import pdb
+
 
 class MyObj:
 
@@ -6,6 +8,7 @@ class MyObj:
 
     def go(self):
         for i in range(self.count):
+            pdb.set_trace()
             print(i)
         return
 
