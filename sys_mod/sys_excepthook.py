@@ -12,5 +12,3 @@ print('Before exception')
 raise RuntimeError('This is the error message')
 
 print('After exception')
-
-# TODO https://pymotw.com/3/sys/exceptions.html
